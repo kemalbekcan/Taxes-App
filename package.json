@@ -1,0 +1,20 @@
+{
+  "name": "vergi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server public",
+    "babel" : "npx babel src/app.js --out-file=public/scripts/app.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13"
+  }
+}
