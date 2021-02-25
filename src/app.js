@@ -22,6 +22,12 @@ function onFormSubmit(event){
     }
     render();
 };
+function clearItems(){
+    app.gumruk = "";
+    app.vergiYok = "";
+    app.tahminiFiyat = "";
+    render();
+}
 
 
 function render(){
@@ -55,12 +61,13 @@ var template = <div>
         </li>
         <li>Tahmini satış fiyatı</li>
     </ul>
+    <button type="submit" onClick={clearItems}>Temizle</button>
 
     <form onSubmit={onFormSubmit}>
     <label>Konsol Fiyatı:</label><br></br>
     <input type="text" name="txtItem"></input><br></br><br></br>
     <button type="submit">Hesapla</button>
-    <button type="submit">Temizle</button>
+    
     </form>
 
 </div>;
