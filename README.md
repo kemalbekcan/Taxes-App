@@ -1,3 +1,4 @@
 # Taxes-App
-Basic taxes app. Use to react technology.
+Basic taxes app.<br>
+Use to react technology.<br>
 First step start dependicies
